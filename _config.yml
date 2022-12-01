@@ -1,9 +1,12 @@
 #remote_theme: just-the-docs/just-the-docs
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 logo: "docs/images/servicenow-logo.png"
 back_to_top: true
 back_to_top_text: "Back to top"
-footer_content: Shao Wei Tan, 16 October 2022, based on the San Diego release.
+footer_content: Dale Stubblefield, 1 December 2022, based on the San Diego release.
+plugins:
+   - jekyll-include-cache
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
@@ -28,3 +31,5 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
+
+  
