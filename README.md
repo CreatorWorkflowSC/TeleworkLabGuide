@@ -1,16 +1,69 @@
----
-title: Jekyll LibDoc as remote theme
-description: Steps to follow to use quickly Jekyll LibDoc without tricky installation
-permalink: index.html
----
-[Jekyll LibDoc as remote theme on GitHub](https://olivier3lanc.github.io/LibDoc-remote-demo/)
+# Telework Lab
 
-This repository contains only the configuration and the content of [Jekyll LibDoc theme](https://github.com/olivier3lanc/Jekyll-LibDoc) since version 1.0.1.
+[![pages-build-deployment](https://github.com/CreatorWorkflowsNow/lab-telework/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CreatorWorkflowsNow/lab-telework/actions/workflows/pages/pages-build-deployment)
 
-*Available only on GitHub*, [remote theme feature](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) is the most simple way to use LibDoc, it does not require any installation, just follow these few steps:
+## Table of contents
+- [Telework Lab](#telework-lab)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Main Sections](#main-sections)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Troubleshooting](#troubleshooting)
+  - [FAQ](#faq)
+  - [Maintainers](#maintainers)
+  - [Extra Links](#extra-links)
 
-1. **Create a repository** <br>Just add a new repository on your GitHub account, this directory is an example.
-2. **Create a LibDoc config file** <br>Create and configure your LibDoc config file called [_config.yml](libdoc-config.html), required for GitHub Pages, do not forget to add/uncomment the following line:<br>`remote_theme: olivier3lanc/Jekyll-LibDoc`<br>[View a _config.yml example](https://github.com/olivier3lanc/LibDoc-remote-demo/blob/main/_config.yml)
-3. **Enable Github Pages** <br>To automatically compile your LibDoc project, just enable GitHub Pages at `https://github.com/[GH_USER_NAME]/[REPO_NAME]/settings/pages`. Each time you commit and push on the specified branch, [Github Pages](https://pages.github.com) builds and hosts your project on the URL `https://[GH_USER_NAME].github.io/[REPO_NAME]`.
+## Introduction
 
-Your repository is now ready to be deployed as GitHub Pages website, all you have to do is adding your content! Learn more about [remote themes](https://github.blog/2017-11-29-use-any-theme-with-github-pages/).
+This is the Lab Guide repo for the Telework Lab.
+
+Lab Guide: https://creatorworkflowsnow.github.io/lab-telework
+
+## Main Sections
+- [Start Here](https://creatorworkflowsnow.github.io/lab-telework/)
+- [How to get Lab Instance](https://creatorworkflowsnow.github.io/lab-telework/docs/how-to-get-lab-instance)
+- [Pre-Reqs](https://creatorworkflowsnow.github.io/lab-telework/docs/pre-reqs)
+1) [App Engine Studio](https://creatorworkflowsnow.github.io/lab-telework/docs/configure-aes)
+2) [Credentials](https://creatorworkflowsnow.github.io/lab-telework/docs/credentials)
+3) [Pipelines & Deployments](https://creatorworkflowsnow.github.io/lab-telework/docs/pipelines-deployments)
+4) [App Intake](https://creatorworkflowsnow.github.io/lab-telework/docs/app-intake)
+5) [Simulation](https://creatorworkflowsnow.github.io/lab-telework/docs/simulation)
+- [References](https://creatorworkflowsnow.github.io/lab-telework/docs/references)
+- [FAQs](https://creatorworkflowsnow.github.io/lab-telework/docs/faqs)
+
+Submit bug reports and feature suggestions, or track changes by contacting [Dale Stubblefield](mailto:dale.stubblefield@servicenow.com).
+
+## Requirements
+
+This module requires the following:
+
+- A mildly pre-configured lab environment provided by your friendly neighborhood ServiceNow person.
+
+## Installation
+
+Commit code to the main branch to regenerate content. A GitHub Action will automatically deploy the new content within a few minutes. 
+
+## Configuration
+
+1. Check out source code.
+2. Make new branch.
+3. Submit Pull Request for your branch back to main branch. 
+
+## Troubleshooting
+
+- Should not be required. 
+
+## FAQ
+
+**Q:** When will this lab be available for the Utah Release?
+
+**A:** Very soon after Utah GA. 
+
+## Maintainers
+
+- Dale Stubblefield - https://github.com/dalestubblefield
+
+## Extra Links
+* README_md In Browser editor (https://stackedit.io/)
